@@ -94,3 +94,7 @@ if st.button("Solve"):
     solution = solve_lp(num_vars, num_constraints, optimization_goal, objective, lhs_ineq, rhs_ineq, lhs_eq, rhs_eq)
     st.subheader("Solution")
     st.text(solution)
+
+"""
+test comment
+"""
